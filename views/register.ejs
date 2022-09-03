@@ -1,0 +1,49 @@
+<%- include("header")  %>
+
+<nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">
+        <img src="images/favpng_catering-food-logo-event-management.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        OrderRista
+      </a>
+    </div>
+  </nav>
+      <div class="row register-br" >
+          <div class="col-lg-6 col-sm-12 home-1" >
+             <img src="images/pngwing.com.png" alt="" class="home-img" >
+             <h1 class="food-quote"><em> <span class="yellow-text">Good food</span> is the foundation of genuine happiness</em></h1>
+          </div>
+          <div class="col-lg-6 col-sm-12 form-card">
+              <div class="card register_card">
+                     <form method="post" action="/">
+                         <h2 class="text-muted">Register Here</h2>
+                         <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username" autocomplete="off">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" name="password" autocomplete="off">
+                          </div>
+                          <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-dark">Submit</button>
+                          </div>
+                          <br>
+                          <p>-Already Registered user? <a href="/login">Click here to login </a></p>
+                          
+                          <hr>
+                          <p class="or">OR</p>
+                          <div class="d-grid gap-2">
+                            <a class="btn btn-block btn-social btn-google" id="social-button" href="/auth/google" role="button">
+                              <i class="fab fa-google"></i>
+                              Sign In with Google
+                            </a>
+                          </div>
+                          
+                     </form>
+              </div>
+
+          </div>
+      </div>
+
+<%- include("footer") %> 

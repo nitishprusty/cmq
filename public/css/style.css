@@ -1,0 +1,289 @@
+
+body{
+    position: static;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: -webkit-linear-gradient(55deg, #FCFFE7 50%,#DEB6AB 50% );
+
+    
+    min-height: 1000px;
+    overflow-x: hidden;
+}
+.food-quote{
+    text-align: center;
+}
+.yellow-text{
+    color: #DEB6AB ;
+}
+form{
+    padding: 3% 5%;
+}
+
+.or{
+    text-align: center;
+}
+
+#social-button{
+    background-color: #E83A14;
+}
+.register-br{
+    padding: 5% 7%;
+}
+.home-img{
+    height: 70%;
+    width: 50%;
+   
+}
+.home-1{
+    text-align: center;
+}
+.login-card{
+    padding-top: 7%;
+    
+    
+}
+ .navigation-list{
+    position: absolute;
+    right: 10px;
+ }
+.nav-link:hover{
+    color: white;
+}
+.main-header{
+    font-family: 'Lobster', 'cursive';
+    padding-top: 10px;
+}
+.menu{
+    text-align: left;
+    font-size: 50px;
+}
+.menu-line{
+    text-align: center;
+    padding-left: 10%;
+    margin-bottom: 25px;
+}
+.we-deliver{
+    text-align: center;
+    margin-top: 80px;
+}
+.about{
+    padding: 5% 7%;
+}
+footer{
+    height: 90px;
+    background-color: black;
+    text-align: center;
+}
+.footer-line{
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+}
+.feedback{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.feedback-card{
+    width:40rem;
+}
+.confirmed-card{
+    width: 30rem;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.order-status{
+    height:10%;
+    width:10%;
+}
+.status{
+    text-align: center;
+    padding: 5% 8%;
+}
+.contact-page{
+    padding: 7% 15%;
+    text-align: center;
+}
+.contact-icon{
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+.contact-icon:hover{
+    font-size: 35px;
+    color: blue;
+}
+.login_card{
+    width: 400px;
+    margin: auto;
+}
+.register_card{
+    width: 400px;
+    margin: auto;
+}
+.food-card{
+    width: 18.5rem;
+
+}
+.edit-box{
+    min-height: 500px;
+    max-height: 500px;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.review-heading{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.review-contents{
+    padding: 20px;
+}
+#user-profile{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.header-menu{
+    height: 400px;
+    background-image: url('../images/background-header.jpg');
+    width: auto;
+    
+    
+}
+.we-deliver{
+    margin-bottom: 90px;
+}
+.banner{
+    text-align: center;
+    margin-top: 90px;
+    color: #fff;
+    font-weight: bolder;
+    /* position: relative;
+    left: 250px;
+    top: 100px; */
+    margin-left: 400px;
+
+}
+.red-bar{
+    font-size: 30px;
+    margin-bottom: 15px;
+    border: 10px solid white;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+}
+.lorem{
+    text-align: justify;
+    margin: 0 0 15px 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: #fff;
+    
+}
+
+
+ @media (max-width:415px){
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .yellow-text{
+        color: white;
+    }
+    .form-card{
+        padding-top: 8%;
+    }
+    .navigation-list{
+        position: static;
+    }
+    .we-deliver{
+        padding: 3% 5%;
+    }
+    /* .food-card{
+       width: 18rem;
+       margin: auto;
+       margin-bottom: 20px;
+    } */
+
+    .food-card{
+        width: 18rem;
+        margin-bottom: 15px;
+        margin-left: 11px;
+        
+    }
+    .confirmed-card{
+        position: absolute;
+        right: 28.5%;
+        
+        width: 25rem;
+    }
+    .register_card {
+        width: 300px;
+        margin: auto;
+        height: 400px;
+    }
+    .login_card{
+        width: 300px;
+        margin-top: 100px;
+    }
+    .red-area{
+        min-height: auto;
+        max-height: auto;
+        height: auto;
+    }
+    .banner{
+        display: none;
+    }
+    .we-deliver{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+   
+    
+}
+@media screen and (min-width:416px) and (max-width:820px) {
+    html,body{
+        margin:0 ;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .navigation-list{
+        position: static;
+    }
+    
+    .food-card{
+        position: relative;
+        left:25%
+    }
+    .menu{
+        position: relative;
+        left:25%;
+    }
+    .confirmed-card{
+        position: absolute;
+        right:10%;
+    }
+    .addd{
+        font-size: 20px;
+    }
+    .food-card{
+        width: 18rem;
+        margin-bottom: 20px;
+     }
+    .header-menu{
+        width: auto;
+    }
+}
+

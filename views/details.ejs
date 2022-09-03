@@ -1,0 +1,32 @@
+<%- include("header") %>
+<nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">
+        <img src="images/favpng_catering-food-logo-event-management.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        OrderRista
+      </a>
+    </div>
+  </nav>
+  <div class="container">
+      <h1>Enter Your Details here-</h1>
+      <div class="card " id="address-card">
+          <form method="post" action="/details" autocomplete="off">
+              <div class="mb-3">
+                <div class="mb-3">
+                    <label for="" class="form-text">ADDRESS</label>
+                    <input type="text"  class="form-control" name="address">
+                    <label for="" class="form-text">PIN-CODE</label>
+                    <input type="text"  class="form-control" name="pincode">
+                    <label for="" class="form-text">CITY</label>
+                    <input type="text"  class="form-control" name="city">
+                    <label for="" class="form-text">STATE</label>
+                    <input type="text"  class="form-control" name="state">
+                    <label for="" class="form-text">MOBILE NO*</label>
+                    <input type="text"  class="form-control" name="mobileno">   
+                </div>
+                <button type="submit"class="btn btn-dark">CONFIRM ORDER</button>
+              </div>
+          </form>
+      </div>
+  </div>
+<%- include("footer") %>

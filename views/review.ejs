@@ -1,0 +1,47 @@
+<%- include("header") %>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">
+            <img src="images/favpng_catering-food-logo-event-management.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            OrderRista
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navigation-list">
+          <li class="nav-item">
+            <a class="nav-link active text-muted" aria-current="page" href="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/review">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="/feedback">Give Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="/contactus">contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="/logout">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="review-heading">What do our Users say?</h1>
+  <div class="container">
+    <div class="edit-box">
+      <div class="review-contents" >
+        <% content.forEach(function(i){ %>
+          <h2  id="user-profile"><i class='fas fa-user-circle'></i> <%=i.name %></h2>
+          <p style="border: 1px solid; padding: 3px; font-size: 13px;"><%= i.review %></p>
+     <% }); %>
+      </div>
+    </div>
+  </div>
+       
+   
+
+<%- include("footer") %>
